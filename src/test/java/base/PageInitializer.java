@@ -1,14 +1,16 @@
 package base;
 
 
+import pages.loginUserLocators;
+
 public class PageInitializer extends Base {
-	
-	//protected static Login login;
+
+	protected static loginUserLocators loginUserLocators;
 
 
 	public static void initializeAllPage() {
 
-		//login= new Login();
+		loginUserLocators= new loginUserLocators();
 		
 	}
 
